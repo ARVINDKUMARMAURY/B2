@@ -15,12 +15,12 @@ from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError, FloodWaitError
 
 # ==== CONFIG ====
-BOT_TOKEN = "7675152993:AAFNHoEleddTmMBqutwI5k32l-364iC2BmU"
-API_ID = 23441916      # int!
-API_HASH = "441dab9c9a15ecb4af91e8aa4f830f7e"
+BOT_TOKEN = "7664042669:AAEX4IU21H1r27Pu1kvDNiCowUg8F6t1-jM"
+API_ID = 21552265      # int!
+API_HASH = "1c971ae7e62cc416ca977e040e700d09"
 
 # Admin Telegram ID (replace with your ID)
-ADMIN_ID = 6503507032  # Change this to your Telegram ID
+ADMIN_ID = 7408008545  # Change this to your Telegram ID
 
 SESSION_DIR = "sessions"
 USER_DATA_DIR = "user_data"
@@ -1001,4 +1001,5 @@ def main():
     app.run_polling(timeout=30)
 
 if __name__ == "__main__":
+
     main()
